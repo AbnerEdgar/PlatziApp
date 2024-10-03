@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DD7260AF2CAEBE8E00A26493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7260962CAEBE8D00A26493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD72609D2CAEBE8D00A26493;
+			remoteInfo = PlatziApp;
+		};
+		DD7260B92CAEBE8F00A26493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7260962CAEBE8D00A26493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD72609D2CAEBE8D00A26493;
+			remoteInfo = PlatziApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD72609E2CAEBE8D00A26493 /* PlatziApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7260AE2CAEBE8E00A26493 /* PlatziAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatziAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7260B82CAEBE8F00A26493 /* PlatziAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatziAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DD7260A02CAEBE8D00A26493 /* PlatziApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlatziApp;
+			sourceTree = "<group>";
+		};
+		DD7260B12CAEBE8E00A26493 /* PlatziAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlatziAppTests;
+			sourceTree = "<group>";
+		};
+		DD7260BB2CAEBE8F00A26493 /* PlatziAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlatziAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD72609B2CAEBE8D00A26493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7260AB2CAEBE8E00A26493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7260B52CAEBE8F00A26493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD7260952CAEBE8D00A26493 = {
+			isa = PBXGroup;
+			children = (
+				DD7260A02CAEBE8D00A26493 /* PlatziApp */,
+				DD7260B12CAEBE8E00A26493 /* PlatziAppTests */,
+				DD7260BB2CAEBE8F00A26493 /* PlatziAppUITests */,
+				DD72609F2CAEBE8D00A26493 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD72609F2CAEBE8D00A26493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD72609E2CAEBE8D00A26493 /* PlatziApp.app */,
+				DD7260AE2CAEBE8E00A26493 /* PlatziAppTests.xctest */,
+				DD7260B82CAEBE8F00A26493 /* PlatziAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD72609D2CAEBE8D00A26493 /* PlatziApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7260C22CAEBE8F00A26493 /* Build configuration list for PBXNativeTarget "PlatziApp" */;
+			buildPhases = (
+				DD72609A2CAEBE8D00A26493 /* Sources */,
+				DD72609B2CAEBE8D00A26493 /* Frameworks */,
+				DD72609C2CAEBE8D00A26493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD7260A02CAEBE8D00A26493 /* PlatziApp */,
+			);
+			name = PlatziApp;
+			packageProductDependencies = (
+			);
+			productName = PlatziApp;
+			productReference = DD72609E2CAEBE8D00A26493 /* PlatziApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD7260AD2CAEBE8E00A26493 /* PlatziAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7260C52CAEBE8F00A26493 /* Build configuration list for PBXNativeTarget "PlatziAppTests" */;
+			buildPhases = (
+				DD7260AA2CAEBE8E00A26493 /* Sources */,
+				DD7260AB2CAEBE8E00A26493 /* Frameworks */,
+				DD7260AC2CAEBE8E00A26493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7260B02CAEBE8E00A26493 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD7260B12CAEBE8E00A26493 /* PlatziAppTests */,
+			);
+			name = PlatziAppTests;
+			packageProductDependencies = (
+			);
+			productName = PlatziAppTests;
+			productReference = DD7260AE2CAEBE8E00A26493 /* PlatziAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD7260B72CAEBE8F00A26493 /* PlatziAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7260C82CAEBE8F00A26493 /* Build configuration list for PBXNativeTarget "PlatziAppUITests" */;
+			buildPhases = (
+				DD7260B42CAEBE8F00A26493 /* Sources */,
+				DD7260B52CAEBE8F00A26493 /* Frameworks */,
+				DD7260B62CAEBE8F00A26493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7260BA2CAEBE8F00A26493 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD7260BB2CAEBE8F00A26493 /* PlatziAppUITests */,
+			);
+			name = PlatziAppUITests;
+			packageProductDependencies = (
+			);
+			productName = PlatziAppUITests;
+			productReference = DD7260B82CAEBE8F00A26493 /* PlatziAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7260962CAEBE8D00A26493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DD72609D2CAEBE8D00A26493 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DD7260AD2CAEBE8E00A26493 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DD72609D2CAEBE8D00A26493;
+					};
+					DD7260B72CAEBE8F00A26493 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DD72609D2CAEBE8D00A26493;
+					};
+				};
+			};
+			buildConfigurationList = DD7260992CAEBE8D00A26493 /* Build configuration list for PBXProject "PlatziApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD7260952CAEBE8D00A26493;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD72609F2CAEBE8D00A26493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD72609D2CAEBE8D00A26493 /* PlatziApp */,
+				DD7260AD2CAEBE8E00A26493 /* PlatziAppTests */,
+				DD7260B72CAEBE8F00A26493 /* PlatziAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD72609C2CAEBE8D00A26493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7260AC2CAEBE8E00A26493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7260B62CAEBE8F00A26493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD72609A2CAEBE8D00A26493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7260AA2CAEBE8E00A26493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7260B42CAEBE8F00A26493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD7260B02CAEBE8E00A26493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD72609D2CAEBE8D00A26493 /* PlatziApp */;
+			targetProxy = DD7260AF2CAEBE8E00A26493 /* PBXContainerItemProxy */;
+		};
+		DD7260BA2CAEBE8F00A26493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD72609D2CAEBE8D00A26493 /* PlatziApp */;
+			targetProxy = DD7260B92CAEBE8F00A26493 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD7260C02CAEBE8F00A26493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD7260C12CAEBE8F00A26493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD7260C32CAEBE8F00A26493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlatziApp/Preview Content\"";
+				DEVELOPMENT_TEAM = K377W42M97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.business.PlatziApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD7260C42CAEBE8F00A26493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlatziApp/Preview Content\"";
+				DEVELOPMENT_TEAM = K377W42M97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.business.PlatziApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD7260C62CAEBE8F00A26493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K377W42M97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.business.PlatziAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatziApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlatziApp";
+			};
+			name = Debug;
+		};
+		DD7260C72CAEBE8F00A26493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K377W42M97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.business.PlatziAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatziApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlatziApp";
+			};
+			name = Release;
+		};
+		DD7260C92CAEBE8F00A26493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K377W42M97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.business.PlatziAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatziApp;
+			};
+			name = Debug;
+		};
+		DD7260CA2CAEBE8F00A26493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K377W42M97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.business.PlatziAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatziApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7260992CAEBE8D00A26493 /* Build configuration list for PBXProject "PlatziApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7260C02CAEBE8F00A26493 /* Debug */,
+				DD7260C12CAEBE8F00A26493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7260C22CAEBE8F00A26493 /* Build configuration list for PBXNativeTarget "PlatziApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7260C32CAEBE8F00A26493 /* Debug */,
+				DD7260C42CAEBE8F00A26493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7260C52CAEBE8F00A26493 /* Build configuration list for PBXNativeTarget "PlatziAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7260C62CAEBE8F00A26493 /* Debug */,
+				DD7260C72CAEBE8F00A26493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7260C82CAEBE8F00A26493 /* Build configuration list for PBXNativeTarget "PlatziAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7260C92CAEBE8F00A26493 /* Debug */,
+				DD7260CA2CAEBE8F00A26493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7260962CAEBE8D00A26493 /* Project object */;
+}
