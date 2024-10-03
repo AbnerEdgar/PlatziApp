@@ -16,9 +16,20 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            APIService.shared.fetchData(endpoint: ProductEndpoint.getAll) {
+                (result: Result<[Product], Error>) in
+                switch result {
+                case .success(let products):
+                    print("Fetched Products:", products)
+                case .failure(let error):
+                    print("Error fetching products:", error.localizedDescription)
+                }
+            }
+        }
     }
 }
-
-#Preview {
-    ContentView()
-}
+//
+//#Preview {
+//    ContentView()
+//}
