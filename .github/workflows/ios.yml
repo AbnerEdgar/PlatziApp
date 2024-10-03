@@ -21,7 +21,7 @@ jobs:
           echo $default | cat >default
           echo Using default scheme: $default
       - name: Build
-        working-directory: /PlatziApp/PlatziApp
+        working-directory: PlatziApp
         env:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
@@ -33,6 +33,7 @@ jobs:
           file_to_build=`echo $file_to_build | awk '{$1=$1;print}'`
           xcodebuild build-for-testing -scheme "$scheme" -"$filetype_parameter" "$file_to_build" -destination "platform=$platform,name=$device"
       - name: Test
+        working-directory: PlatziApp
         env:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
