@@ -37,9 +37,22 @@
 		DD7260FE2CAEE71000A26493 /* APIServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DD7261CC2CB1A04400A26493 /* Exceptions for "PlatziApp" folder in "PlatziApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Coordinator/Untitled.swift,
+			);
+			target = DD72609D2CAEBE8D00A26493 /* PlatziApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DD7260A02CAEBE8D00A26493 /* PlatziApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DD7261CC2CB1A04400A26493 /* Exceptions for "PlatziApp" folder in "PlatziApp" target */,
+			);
 			path = PlatziApp;
 			sourceTree = "<group>";
 		};
