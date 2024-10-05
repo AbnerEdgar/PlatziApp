@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct PlatziAppApp: App {
+struct PlatziApp: App {
+    @StateObject private var mainCoordinator = MainCoordinator()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            mainCoordinator.start()
         }
     }
 }
