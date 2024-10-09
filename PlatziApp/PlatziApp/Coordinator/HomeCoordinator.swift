@@ -8,6 +8,7 @@ import Foundation
 import SwiftUI
 
 class HomeCoordinator: ObservableObject {
+    weak var mainCoordinator: MainCoordinator?
     @Published var selectedProduct: Product?
     @Published var path = NavigationPath()
 

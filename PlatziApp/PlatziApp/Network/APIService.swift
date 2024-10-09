@@ -36,7 +36,7 @@ final class APIService {
             }
         }
 
-        urlSession.dataTask(with: url) { (data, response, error) in
+        urlSession.dataTask(with: request) { (data, response, error) in
 
             self.logResponse(data: data, response: response, error: error)
 

@@ -9,11 +9,11 @@ import SwiftUI
 
 struct IconPreview: View {
     let icons: [(name: String, symbolName: String)] = [
-        ("Home", Icons.home),
-        ("Search", Icons.search),
-        ("Categories", Icons.categories),
-        ("Cart", Icons.cart),
-        ("Profile", Icons.profile),
+        ("Home", Icon.home),
+        ("Search", Icon.search),
+        ("Categories", Icon.categories),
+        ("Cart", Icon.cart),
+        ("Profile", Icon.profile),
     ]
 
     var body: some View {
